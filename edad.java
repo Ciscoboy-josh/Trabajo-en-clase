@@ -9,6 +9,11 @@ public class edad{
         int edad = sc.nextInt();
         System.out.println("ingresa tu sexo (H = Hombre) y (M =Mujer)");
         char sexo = sc.next().charAt(0);
+        
+        if(sexo == 'H' & edad == 18){
+        System.out.println("vas a servicio militar");
+        }else{
+        System.out.println("Eres mujer o tienes menos de 18");}
 
         
     
